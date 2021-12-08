@@ -8,18 +8,22 @@
     <title>NIT</title>
 </head>
 <?php
-function print_next()
+
+
+
+$students = [
+
+    ["ahmed",20,3.4],
+    ["x",23],
+    ["y",22,3.4,'class A'],
+
+];
+foreach ($students as $key => $value)
 {
-    $cha = 'b';
-    $next_cha = ++$cha;
+    echo "{$key} => {$value} ";
 
-
-    if (strlen($next_cha) > 1) {
-        $next_cha = $next_cha[0];
-    }
-    echo $next_cha . "\n";
+    print_r($arr);
 }
-print_next();
 
 ?>
 </body>
