@@ -25,7 +25,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 
 
 
-    if(count($ErrorMessage) > 0){
+    if(count($ErrorMessage) > 0)
+        {
         foreach ($ErrorMessage as $key => $value)
         {
             echo '*==>'.$key.' : '.$value.'<br>';
