@@ -85,7 +85,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1"> linkedin</label>
-                <input name="linkedin" type="text" class="form-control" placeholder="Enter your linkedin url ">
+                <input name="linkedin" type="url" class="form-control" placeholder="Enter your linkedin url ">
 
             </div>
 
