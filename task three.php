@@ -21,20 +21,18 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 
 
     if(strlen($Password)<6) {$ErrorMessage['Password']  = "Password Length can't be less than 6 char ";}
-
     if ($address>10) {$ErrorMessage['address']  = "minimum allowed address  is 10 chars ,  please enter valid address  ";}
 
 
 
     if(count($ErrorMessage) > 0){
-        foreach ($ErrorMessage as $key => $value) {
-
-            echo '* '.$key.' : '.$value.'<br>';
+        foreach ($ErrorMessage as $key => $value)
+        {
+            echo '*==>'.$key.' : '.$value.'<br>';
         }
-    }else{
-
-        echo $name."<br>".$email."<br>".$Password."<br>".$address."<br>".$linkedin."<br>";
-    }
+        }else{
+            echo $name."<br>".$email."<br>".$Password."<br>".$address."<br>".$linkedin."<br>";
+        }
 
 
 }
@@ -89,7 +87,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
                 <input name="linkedin" type="text" class="form-control" placeholder="Enter your linkedin url ">
 
             </div>
-
 
             <button type="submit" class="btn btn-primary">Submit</button>
 
