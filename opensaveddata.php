@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <section>
-                <h1>List Of products </h1>
+                <h1 class="btn-btn sucess">list of products </h1>
                 <table class="table-bordered text-center">
                     <tr>
                         <th>products_id</th>
