@@ -59,6 +59,7 @@
                     }
 
                     ?>
+                    <a  href="opensaveddata.php" class="btn btn-primary">go to dsaved data</a>
                 </table>
             </section>
 
