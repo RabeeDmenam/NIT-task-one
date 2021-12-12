@@ -55,6 +55,7 @@ if (is_writable($filename)) {
     <div class="row">
         <section>
             <h1>List Of products </h1>
+            <a class="btn btn-primary" href="opensaveddata.php"></a>
             <table class="table-bordered text-center">
                 <tr>
                     <th>products_id</th>
